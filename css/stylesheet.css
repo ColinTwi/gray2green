@@ -75,8 +75,9 @@ main {
 
 article h1{
     text-align: center;
-    color: rgb(57, 159, 16);
+    color: rgb(111, 159, 65);
     font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .blaadjetekst{
@@ -93,7 +94,7 @@ article h1{
     width: 100%
 }
 
-.image-container h2{
+.image-container h2 {
     position: absolute;
     top: 26%;
     left: 40%;
@@ -101,7 +102,7 @@ article h1{
     color: white;
 }
 
-.image-container p{
+.image-container p {
     position: absolute;
     top: 38%;
     left: 43%;
@@ -110,13 +111,13 @@ article h1{
    font-size: 0.8em;
 }
 
-.groen img{
+.groen img {
     width: 50%;
     margin-left: 1em;
     margin-top: 1em;
 }
 
-.avatar-container{
+.avatar-container {
     display: flex;
  
     margin-right: 10em;
@@ -124,8 +125,41 @@ article h1{
 }
 
 
-#fotoblaadje{
+#fotoblaadje {
     margin-top: 4em;
+}
 
+.groenebalkon {
+    display: flex;
+    flex-direction: column;
+}
 
+.balkon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tekst {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.afbeeldingpot{
+    flex: 0;
+}
+
+.groenebalkon h2 {
+    text-align: left;
+    margin: 0;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.groenebalkon p {
+    text-align: left;
+    margin: 0;
+}
+.groenebalkon {
+    margin-top: 5em;
 }
