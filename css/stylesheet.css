@@ -1,19 +1,52 @@
 body {
-    background-image: url(../afbeeldingen/background.png);
+    background-image: url(../afbeeldingen/backgroundv3.png);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0;
     padding:0;
+    color: black;
 }
 
+@font-face{
+    font-family: Agbalumo;
+    src: url(fonts/Agbalumo)
+}
+
+@font-face{
+    font-family: Acme;
+    src: url(fonts/Acme)
+}
+
+.navbar img { 
+    width: 25%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar a{
+    margin: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Agbalumo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    border: solid 3px red;
+}
+
+/*
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 header img {
     width: 50%;
@@ -61,73 +94,86 @@ header img {
     500px 0 0 rgba(34, 34, 143, 0.08) inset;
 
 }
+*/
 
-main {
+.titel {
     display: flex;
+    justify-content: center;
+}
+
+.titel img{
+    width: 90%;
+    margin: 0.1em 2em 1em 2em;
+}
+
+/*
+.blaadjeh1{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-#titel {
-    width: 85%;
-    margin-bottom: 1em;
-}
 
-article h1{
-    text-align: center;
-    color: rgb(111, 159, 65);
-    font-size: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.blaadjetekst{
-    margin-top: 8em;
-}
-
-.image-container {
+.img-container{
     position: relative;
-    display: inline-block;
+    text-align: center;
 }
 
-.image-container img {
-    display: block;
-    width: 100%
+.img-container img{
+    width: 40%;
+    height: auto;
 }
 
-.image-container h2 {
+.img-container h1{
     position: absolute;
-    top: 26%;
-    left: 40%;
+    top: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 1em;
+    font-family: 'Agbalumo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+*/
+
+h1 {
+    border-bottom: solid 3px rgb(110, 159, 65);
+    margin-bottom: 3em;
+    display: inline;
+    color: rgb(55,79,32);
+    font-size: 2em;
 }
 
-.image-container p {
-    position: absolute;
-    top: 38%;
-    left: 43%;
-    transform: translate(-50%, -50%);
-    color: white;
-   font-size: 0.8em;
+.h1-container{
+    display: flex;
+    justify-content: center;
 }
 
-.groen img {
-    width: 50%;
+h2{
+    font-family: 'Acme';
+    font-size: 1.5em;
     margin-left: 1em;
-    margin-top: 1em;
+}
+
+.tekst1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+    margin-left: 1em
+}
+
+.tekst1 p{
+    margin-right: 1.2em;
+
+}
+
+.tekst1 img {
+    width: 10em;
 }
 
 .avatar-container {
     display: flex;
- 
-    margin-right: 10em;
-    margin-top: 2em;
+    justify-content: center;
 }
 
-
-#fotoblaadje {
-    margin-top: 4em;
-}
 
 .groenebalkon {
     display: flex;
@@ -138,6 +184,10 @@ article h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.balkon-container img {
+    width: 10em;
 }
 
 .tekst {
@@ -162,4 +212,65 @@ article h1{
 }
 .groenebalkon {
     margin-top: 5em;
+}
+
+
+
+
+
+.groenecafe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.cafe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cafe-container img {
+    width: 10em;
+}
+
+.tekst-cafe {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.afbeeldingpotcafe{
+    flex: 0;
+}
+
+.groenecafe h2 {
+    text-align: right;
+    margin: 0;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.groenecafe p {
+    text-align: right;
+    margin: 0;
+}
+.groenebalkon {
+    margin-top: 5em;
+}
+
+.schep-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+    margin-left: 1em
+}
+
+.schep-container p{
+    margin-right: 1.2em;
+
+}
+
+.schep-container img {
+    width: 10em;
 }
