@@ -37,8 +37,14 @@ body {
     font-family: 'Agbalumo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a:hover{
-    border: solid 3px red;
+.navbar a:last-child:hover,
+.navbar a:nth-last-child(2):hover {
+    border-bottom: solid 3px rgb(0, 0, 0);
+}
+
+.navbar a:last-child:active,
+.navbar a:nth-last-child(2):active{
+    border-bottom: solid 3px rgb(0, 0, 0);
 }
 
 /*
