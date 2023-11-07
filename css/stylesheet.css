@@ -152,6 +152,11 @@ h2{
     justify-content: center;
 }
 
+.info-voorbeelden{
+    text-align: center;
+    margin-right: 1em;
+    margin-left: 1em;
+}
 
 .groenebalkon {
     display: flex;
@@ -251,4 +256,8 @@ h2{
 
 .schep-container img {
     width: 10em;
+}
+
+.tips{
+    margin-left: 1em;
 }
