@@ -21,91 +21,43 @@ body {
 
 .navbar img { 
     width: 25%;
+    margin-left: 1em;
 }
+
 
 .navbar {
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.551)
 }
 
 .navbar a{
-    margin: 1em 1em 1em 1em;
+    margin: 0 1em 0 0;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-family: 'Agbalumo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar a:last-child,
 .navbar a:nth-last-child(2){
-    border-bottom: solid 3px rgb(0, 0, 0);
+    border: solid 3px rgb(0, 0, 0);
+    background-color: rgb(110,159, 65);
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .navbar a:last-child:hover,
 .navbar a:nth-last-child(2):hover {
-    border-bottom: solid 3px rgb(110,159, 65);
+    border: solid 3px rgb(110,159, 65);
 }
 
 .navbar a:last-child:active,
 .navbar a:nth-last-child(2):active{
-    border-bottom: solid 3px rgb(110,159, 65);
+    border: solid 3px rgb(110,159, 65);
 }
 
-/*
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    width: 50%;
-    margin: 10px
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    z-index: 1;
-    transition: 0.5s;
-    padding: 0;
-}
-
-.menu ul{
-    display: flex;
-    justify-content: center;
-}
-
-.menu li {
-    list-style-type: none;
-}
-
-.menu li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    padding: 10px 10px;
-    font-size: 18px;
-    line-height: 1;
-    transition: 0.3s;
-}
-
-.menu li a:hover {
-    box-shadow: 0 -5px 0px #097cc4 inset,
-    500px 0 0 rgba(34, 34, 143, 0.08) inset;
-
-}
-*/
 
 .titel {
     display: flex;
@@ -114,12 +66,12 @@ header img {
 
 .titel img{
     width: 90%;
-    margin: 0.1em 2em 0 2em;
+    margin: 4em 2em 0 2em;
 }
 
 h1 {
     border-bottom: solid 3px rgb(110, 159, 65);
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     display: inline;
     color: rgb(55,79,32);
     font-size: 2em;
@@ -167,11 +119,14 @@ h2{
     margin-top: 2em;
 }
 
-.info-voorbeelden{
+.info-voorbeelden p{
     text-align: center;
     margin-right: 1em;
     margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 
 .groenebalkon {
     display: flex;
@@ -270,6 +225,8 @@ h2{
     width: 10em;
 }
 
-.tips{
+h3{
     margin-left: 1em;
+    font-family: 'Acme';
 }
+
