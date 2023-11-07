@@ -152,6 +152,10 @@ h2{
     justify-content: center;
 }
 
+.avatar-container img{
+    width: 50%;
+}
+
 .info-voorbeelden{
     text-align: center;
     margin-right: 1em;
@@ -197,10 +201,6 @@ h2{
     margin-top: 5em;
 }
 
-
-
-
-
 .groenecafe {
     display: flex;
     flex-direction: column;
@@ -212,7 +212,6 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-
 
 .cafe-container img {
     width: 10em;
