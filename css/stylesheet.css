@@ -171,6 +171,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 1em;
 }
 
 .balkon-container img {
@@ -211,6 +212,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 1em;
 }
 
 .cafe-container img {
