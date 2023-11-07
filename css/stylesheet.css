@@ -9,14 +9,14 @@ body {
     color: black;
 }
 
-@font-face{
+@font-face {
     font-family: Agbalumo;
-    src: url(fonts/Agbalumo)
+    src: url(../fonts/Agbalumo)
 }
 
-@font-face{
+@font-face {
     font-family: Acme;
-    src: url(fonts/Acme)
+    src: url(../fonts/Acme)
 }
 
 .navbar img { 
@@ -32,7 +32,7 @@ body {
     background-color: rgba(74, 46, 0, 0.551)
 }
 
-.navbar a{
+.navbar a {
     margin: 0 1em 0 0;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -41,7 +41,7 @@ body {
 }
 
 .navbar a:last-child,
-.navbar a:nth-last-child(2){
+.navbar a:nth-last-child(2) {
     border: solid 3px rgb(0, 0, 0);
     background-color: rgb(110,159, 65);
     padding: 0.1em 0.5em 0.1em 0.5em;
@@ -54,7 +54,7 @@ body {
 }
 
 .navbar a:last-child:active,
-.navbar a:nth-last-child(2):active{
+.navbar a:nth-last-child(2):active {
     background-color: rgb(62, 90, 37);
 }
 
@@ -64,7 +64,7 @@ body {
     justify-content: center;
 }
 
-.titel img{
+.titel img {
     width: 90%;
     margin: 4em 2em 0 2em;
 }
@@ -78,13 +78,13 @@ h1 {
     margin-top: 0;
 }
 
-.h1-container{
+.h1-container {
     display: flex;
     justify-content: center;
 
 }
 
-h2{
+h2 {
     font-family: 'Acme';
     font-size: 1.5em;
     margin-left: 1em;
@@ -92,14 +92,14 @@ h2{
     margin-bottom: 0;
 }
 
-.tekst1{
+.tekst1 {
     display: flex;
     align-items: center;
     margin-bottom: 2.5em;
     margin-left: 1em
 }
 
-.tekst1 p{
+.tekst1 p {
     margin-right: 1.2em;
 
 }
@@ -114,12 +114,12 @@ h2{
     margin-bottom: 1em;
 }
 
-.avatar-container img{
+.avatar-container img {
     width: 50%;
     margin-top: 2em;
 }
 
-.info-voorbeelden p{
+.info-voorbeelden p {
     text-align: center;
     margin-right: 1em;
     margin-left: 1em;
@@ -149,7 +149,7 @@ h2{
     padding: 0 20px;
 }
 
-.afbeeldingpot{
+.afbeeldingpot {
     flex: 0;
 }
 
@@ -209,23 +209,23 @@ h2{
     margin-top: 5em;
 }
 
-.schep-container{
+.actie-container {
     display: flex;
     align-items: center;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     margin-left: 1em
 }
 
-.schep-container p{
+.actie-container p {
     margin-right: 1.2em;
 
 }
 
-.schep-container img {
+.actie-container img {
     width: 10em;
 }
 
-h3{
+h3 {
     margin-left: 1em;
     font-family: 'Acme';
 }
