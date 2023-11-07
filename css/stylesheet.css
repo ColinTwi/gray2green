@@ -50,12 +50,12 @@ body {
 
 .navbar a:last-child:hover,
 .navbar a:nth-last-child(2):hover {
-    border: solid 3px rgb(110,159, 65);
+    background-color: rgb(96, 138, 57);
 }
 
 .navbar a:last-child:active,
 .navbar a:nth-last-child(2):active{
-    border: solid 3px rgb(110,159, 65);
+    background-color: rgb(62, 90, 37);
 }
 
 
