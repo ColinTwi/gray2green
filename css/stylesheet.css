@@ -13,12 +13,12 @@ body {
 
 @font-face {
     font-family: Agbalumo;
-    src: url(../fonts/Agbalumo) format('ttf');
+    src: url(fonts/Agbalumo) format('ttf');
 }
 
 @font-face {
     font-family: Acme;
-    src: url(../fonts/Acme) format('ttf');
+    src: url(fonts/Acme) format('ttf');
 }
 
 .navbar img { 
