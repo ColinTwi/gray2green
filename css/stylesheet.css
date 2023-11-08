@@ -9,6 +9,8 @@ body {
     color: black;
 }
 
+
+
 @font-face {
     font-family: Agbalumo;
     src: url(../fonts/Agbalumo)
@@ -79,11 +81,45 @@ h1 {
     font-family: agbalumo;
 }
 
+.h1-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.5em;
+}
+
+.h1-avatar img {
+    width: 15%;
+    margin-bottom: 4em;
+    margin-left: 1em;
+}
+/*
 .h1-container {
     display: flex;
     justify-content: center;
 
 }
+
+.h1-avatar-container img {
+    margin-left: 1em;
+    width: 12%;
+    height: 12%;
+    border: solid 3px red;
+}
+
+.h1-avatar-container{
+    display: flex;
+
+}
+
+.h1-avatar-container{
+    display: flex;
+    justify-content: center;
+}
+*/
+
+
+
 
 h2 {
     font-family: 'Acme';
@@ -107,22 +143,6 @@ h2 {
 
 .tekst1 img {
     width: 11em;
-}
-
-.avatar-container {
-    display: flex;
-    justify-content: start;
-    margin-bottom: 1em;
-}
-
-.avatar-container img {
-    margin: 1em;
-}
-
-.avatar-container img:last-child {
-   margin: 3.5em 1em 0 0;
-   width: 100%;
-   height: 100%;
 }
 
 .info-voorbeelden p {
