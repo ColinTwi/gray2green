@@ -13,12 +13,12 @@ body {
 
 @font-face {
     font-family: Agbalumo;
-    src: url(../fonts/Agbalumo)
+    src: url(../fonts/Agbalumo) format('ttf');
 }
 
 @font-face {
     font-family: Acme;
-    src: url(../fonts/Acme)
+    src: url(../fonts/Acme) format('ttf');
 }
 
 .navbar img { 
@@ -133,7 +133,7 @@ h2 {
     display: flex;
     align-items: center;
     margin-bottom: 2.5em;
-    margin-left: 1em
+    margin-left: 1.4em
 }
 
 .tekst1 p {
@@ -239,7 +239,7 @@ h2 {
     display: flex;
     align-items: center;
     margin-bottom: 1em;
-    margin-left: 1em
+    margin-left: 1.4em
 }
 
 .actie-container p {
